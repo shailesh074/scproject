@@ -182,3 +182,8 @@ input::placeholder { color: var(--text-muted); }
 
 /* Data Items & Tables */
 .expense-item { 
+    display: flex; justify-content: space-between; padding: 1.25rem; 
+    background: rgba(255,255,255,0.02); border-radius: 12px; margin-bottom: 0.75rem; align-items: center;
+    border: 1px solid transparent; transition: var(--transition-fast);
+}
+.expense-item:hover { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.05); }
