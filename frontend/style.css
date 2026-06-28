@@ -177,3 +177,8 @@ input::placeholder { color: var(--text-muted); }
 /* Grid Systems */
 .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem; }
 .dashboard-widgets, .analytics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem; align-items: start; }
+.widget-title { font-size: 1.1rem; color: #fff; margin-bottom: 1.5rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--border-light); font-weight: 600; }
+.amount { font-size: 2.5rem; font-weight: 700; color: #fff; margin-top: 0.5rem; letter-spacing: -1px; }
+
+/* Data Items & Tables */
+.expense-item { 
