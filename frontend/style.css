@@ -4,3 +4,9 @@
 :root {
   --bg-main: #030407; 
   --bg-surface: rgba(18, 22, 29, 0.65);
+  --bg-surface-hover: rgba(25, 30, 40, 0.8);
+  --border-light: rgba(255, 255, 255, 0.08);
+  --border-focus: rgba(0, 229, 255, 0.5);
+  
+  --text-primary: #FFFFFF; 
+  --text-secondary: #8B949E;
