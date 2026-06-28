@@ -16,3 +16,9 @@
   --accent-cyan-dark: #0891b2;
   --accent-purple: #7C3AED; 
   --accent-purple-light: #a78bfa;
+  --accent-red: #FF3366;
+  --accent-green: #10b981;
+  --accent-yellow: #f59e0b;
+  
+  --glass-blur: blur(20px); 
+  --font-main: 'Outfit', sans-serif;
