@@ -58,3 +58,9 @@ input, select, textarea { font-family: var(--font-main); }
 .uppercase { text-transform: uppercase; } .tracking-wide { letter-spacing: 0.05em; }
 .cursor-pointer { cursor: pointer; }
 .border-dashed { border: 1px dashed var(--border-light); }
+
+/* Color Utilities */
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
+.text-cyan { color: var(--accent-cyan); }
+.text-red { color: var(--accent-red); }
