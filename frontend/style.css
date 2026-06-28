@@ -34,3 +34,9 @@ h1 { font-size: 2.5rem; } h2 { font-size: 1.75rem; } h3 { font-size: 1.25rem; } 
 p { color: var(--text-secondary); line-height: 1.5; }
 a { color: var(--accent-cyan); text-decoration: none; }
 button { font-family: var(--font-main); cursor: pointer; border: none; outline: none; transition: var(--transition-fast); }
+input, select, textarea { font-family: var(--font-main); }
+
+/* Utility Classes */
+.hidden { display: none !important; }
+.block { display: block; }
+.inline-block { display: inline-block; }
