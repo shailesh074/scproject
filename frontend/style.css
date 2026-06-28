@@ -127,3 +127,8 @@ input::placeholder { color: var(--text-muted); }
     position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
     z-index: 9999; background: #000;
     transition: opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Global Background */
+#global-bg { position: fixed; inset: 0; z-index: 0; background: var(--bg-main); transition: opacity 2s ease; }
+.bg-orb { position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.4; animation: floatOrb 20s infinite alternate ease-in-out; }
