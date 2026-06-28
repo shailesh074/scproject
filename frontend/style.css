@@ -162,3 +162,8 @@ input::placeholder { color: var(--text-muted); }
 #content-area { flex: 1; display: flex; flex-direction: column; z-index: 10; overflow:hidden; background: rgba(0,0,0,0.2); }
 .topbar { padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--border-light); background: rgba(10, 12, 16, 0.6); backdrop-filter: blur(10px); }
 .profile-badge { padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; color: var(--accent-cyan); border-color: rgba(0,229,255,0.2); }
+
+/* Views Architecture */
+.views-container { flex: 1; padding: 2.5rem; overflow-y: auto; position: relative; scroll-behavior: smooth; }
+.views-container::-webkit-scrollbar { width: 8px; }
+.views-container::-webkit-scrollbar-track { background: transparent; }
