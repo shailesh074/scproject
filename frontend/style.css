@@ -157,3 +157,8 @@ input::placeholder { color: var(--text-muted); }
 .nav-links li:hover .nav-icon { opacity: 1; color: var(--accent-cyan); }
 .nav-links li.active { color: var(--accent-cyan); border-left-color: var(--accent-cyan); background: linear-gradient(90deg, rgba(0,229,255,0.1) 0%, transparent 100%); }
 .nav-links li.active .nav-icon { opacity: 1; }
+.sidebar-footer { padding: 1.5rem; border-top: 1px solid var(--border-light); }
+
+#content-area { flex: 1; display: flex; flex-direction: column; z-index: 10; overflow:hidden; background: rgba(0,0,0,0.2); }
+.topbar { padding: 1.5rem 2.5rem; border-bottom: 1px solid var(--border-light); background: rgba(10, 12, 16, 0.6); backdrop-filter: blur(10px); }
+.profile-badge { padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; color: var(--accent-cyan); border-color: rgba(0,229,255,0.2); }
