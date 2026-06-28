@@ -22,3 +22,9 @@
   
   --glass-blur: blur(20px); 
   --font-main: 'Outfit', sans-serif;
+  --transition-fast: 0.2s ease;
+  --transition-med: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Reset & Basics */
+* { margin: 0; padding: 0; box-sizing: border-box; }
