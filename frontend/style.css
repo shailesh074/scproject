@@ -88,3 +88,9 @@ input, select, textarea { font-family: var(--font-main); }
 .hover-lift { transition: transform 0.3s ease, box-shadow 0.3s ease; }
 .hover-lift:hover { transform: translateY(-5px); box-shadow: 0 12px 40px rgba(0,229,255,0.15); border-color: rgba(0,229,255,0.3); }
 
+/* Buttons */
+.primary-btn { 
+    background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple)); 
+    color: #fff; padding: 0.85rem 1.5rem; border-radius: 8px; font-weight: 600; 
+    display: flex; align-items: center; justify-content: center; 
+    box-shadow: 0 4px 15px rgba(0, 229, 255, 0.3); 
