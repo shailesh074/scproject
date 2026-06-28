@@ -64,3 +64,9 @@ input, select, textarea { font-family: var(--font-main); }
 .text-secondary { color: var(--text-secondary); }
 .text-cyan { color: var(--accent-cyan); }
 .text-red { color: var(--accent-red); }
+.text-purple { color: var(--accent-purple); }
+.text-green { color: var(--accent-green); }
+.text-yellow { color: var(--accent-yellow); }
+
+/* Components */
+.glass { 
