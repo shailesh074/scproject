@@ -202,3 +202,8 @@ input::placeholder { color: var(--text-muted); }
 .progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple)); transition: width 1s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 10px rgba(0,229,255,0.5); }
 .goal-meta { display: flex; justify-content: space-between; font-size: 0.8rem; margin-top: 0.75rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px;}
 
+.divider { height: 1px; width: 100%; background: var(--border-light); }
+
+/* Fallback Intro Layer */
+#view-landing { z-index: 10000; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: transparent; }
+.logo-3d-text { font-size: 3.5rem; font-weight: 800; line-height: 1; background: linear-gradient(135deg, var(--accent-cyan), #fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 2px; }
