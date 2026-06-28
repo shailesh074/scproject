@@ -192,3 +192,8 @@ input::placeholder { color: var(--text-muted); }
 
 .table-container { overflow-x: auto; }
 .expenses-table { width: 100%; border-collapse: separate; border-spacing: 0; }
+.expenses-table th, .expenses-table td { padding: 1.25rem 1rem; text-align: left; border-bottom: 1px solid var(--border-light); }
+.expenses-table th { color: var(--text-secondary); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1px; font-weight: 600; }
+.expenses-table tbody tr { transition: var(--transition-fast); }
+.expenses-table tbody tr:hover { background: rgba(255,255,255,0.02); }
+
