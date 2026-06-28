@@ -212,3 +212,8 @@ input::placeholder { color: var(--text-muted); }
 /* Responsive Overrides */
 @media (max-width: 1024px) {
     .dashboard-widgets, .analytics-grid { grid-template-columns: 1fr; }
+    .widget[style*="grid-column"] { grid-column: auto !important; }
+}
+@media (max-width: 768px) {
+    #sidebar { display: none; }
+    .topbar { padding: 1rem 1.5rem; }
