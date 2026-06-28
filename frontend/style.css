@@ -122,3 +122,8 @@ input::placeholder { color: var(--text-muted); }
 .select-input option { background: var(--bg-main); color: #fff; padding: 10px; }
 .input-glow:focus { box-shadow: 0 0 25px rgba(124, 58, 237, 0.4); border-color: var(--accent-purple); }
 
+/* Three.js Canvas Container */
+#three-container {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    z-index: 9999; background: #000;
+    transition: opacity 1.5s cubic-bezier(0.4, 0, 0.2, 1);
