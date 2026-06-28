@@ -94,3 +94,9 @@ input, select, textarea { font-family: var(--font-main); }
     color: #fff; padding: 0.85rem 1.5rem; border-radius: 8px; font-weight: 600; 
     display: flex; align-items: center; justify-content: center; 
     box-shadow: 0 4px 15px rgba(0, 229, 255, 0.3); 
+    text-transform: uppercase; letter-spacing: 1px;
+}
+.primary-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0, 229, 255, 0.5); filter: brightness(1.1); }
+.primary-btn:active { transform: translateY(1px); }
+
+.secondary-btn {
