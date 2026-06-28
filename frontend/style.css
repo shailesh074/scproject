@@ -147,3 +147,8 @@ input::placeholder { color: var(--text-muted); }
 .sidebar-header { padding: 2rem 1.5rem; border-bottom: 1px solid var(--border-light); }
 .logo { font-weight: 800; letter-spacing: 0.15em; color: var(--accent-cyan); font-size: 1.5rem; text-shadow: 0 0 10px rgba(0,229,255,0.3); }
 
+.nav-links { list-style: none; margin-top: 1rem; flex: 1; }
+.nav-links li { 
+    padding: 1rem 1.5rem; color: var(--text-secondary); cursor: pointer; transition: var(--transition-fast); 
+    border-left: 3px solid transparent; display: flex; align-items: center; font-weight: 500;
+}
