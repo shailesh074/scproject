@@ -207,3 +207,8 @@ input::placeholder { color: var(--text-muted); }
 /* Fallback Intro Layer */
 #view-landing { z-index: 10000; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: transparent; }
 .logo-3d-text { font-size: 3.5rem; font-weight: 800; line-height: 1; background: linear-gradient(135deg, var(--accent-cyan), #fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 2px; }
+.logo-3d-text span { font-size: 1.5rem; color: var(--accent-purple); -webkit-text-fill-color: var(--accent-purple); letter-spacing: 8px; }
+
+/* Responsive Overrides */
+@media (max-width: 1024px) {
+    .dashboard-widgets, .analytics-grid { grid-template-columns: 1fr; }
