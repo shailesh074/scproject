@@ -40,3 +40,9 @@ input, select, textarea { font-family: var(--font-main); }
 .hidden { display: none !important; }
 .block { display: block; }
 .inline-block { display: inline-block; }
+.flex { display: flex; } 
+.flex-col { display: flex; flex-direction: column; }
+.flex-between { display: flex; justify-content: space-between; }
+.flex-center { display: flex; justify-content: center; align-items: center; }
+.align-center { align-items: center; }
+.gap-2 { gap: 0.5rem; } .gap-4 { gap: 1rem; } .gap-6 { gap: 1.5rem; }
