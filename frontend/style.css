@@ -117,3 +117,8 @@ input, .select-input {
     background: rgba(0,0,0,0.3); border: 1px solid var(--border-light); color: #fff; 
     padding: 0.85rem 1rem; border-radius: 8px; width: 100%; outline: none; transition: var(--transition-fast);
 }
+input:focus, .select-input:focus { border-color: var(--border-focus); box-shadow: 0 0 15px rgba(0, 229, 255, 0.1); background: rgba(0,0,0,0.5); }
+input::placeholder { color: var(--text-muted); }
+.select-input option { background: var(--bg-main); color: #fff; padding: 10px; }
+.input-glow:focus { box-shadow: 0 0 25px rgba(124, 58, 237, 0.4); border-color: var(--accent-purple); }
+
